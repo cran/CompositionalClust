@@ -13,8 +13,8 @@ Cluster analysis with compositional data using the \eqn{\alpha}--transformation.
 \tabular{ll}{
 Package: \tab CompositionalClust\cr
 Type: \tab Package\cr
-Version: \tab 1.0 \cr
-Date: \tab 2025-09-15\cr
+Version: \tab 1.1 \cr
+Date: \tab 2025-09-23\cr
 License: \tab GPL-2\cr
 }
 }

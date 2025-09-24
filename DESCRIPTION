@@ -1,8 +1,8 @@
 Package: CompositionalClust
 Type: Package
 Title: Clustering with Compositional Data
-Version: 1.0
-Date: 2025-09-15
+Version: 1.1
+Date: 2025-09-23
 Authors@R: c( person("Michail", "Tsagris", role = c("aut", "cre"), email = "mtsagris@uoc.gr"), 
               person( "Nikolaos", "Kontemeniotis", role = "aut", email = "kontemeniotisn@gmail.com" ) )
 Author: Michail Tsagris [aut, cre],
@@ -14,6 +14,6 @@ Imports: Compositional, doParallel, foreach, graphics, lowmemtkmeans,
 Description: Cluster analysis with compositional data using the alpha--transformation. Relevant papers include: Tsagris M. and Kontemeniotis N. (2025), <doi:10.48550/arXiv.2509.05945>. Tsagris M.T., Preston S. and Wood A.T.A. (2011), <doi:10.48550/arXiv.1106.1451>. Garcia-Escudero Luis A., Gordaliza Alfonso, Matran Carlos, Mayo-Iscar Agustin. (2008), <doi:10.1214/07-AOS515>.
 License: GPL (>= 2)
 NeedsCompilation: no
-Packaged: 2025-09-14 20:47:14 UTC; mtsag
+Packaged: 2025-09-23 15:38:43 UTC; mtsag
 Repository: CRAN
-Date/Publication: 2025-09-18 09:20:02 UTC
+Date/Publication: 2025-09-24 10:50:25 UTC

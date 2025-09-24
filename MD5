@@ -1,12 +1,12 @@
-87b059be431afb165108e47032b5c109 *DESCRIPTION
+508eac6fe9325ae35506be1eb9dc7769 *DESCRIPTION
 5a01e743ce2b3a45253eabfc208f8aca *NAMESPACE
 bd708b1cdd0bdaa4b28a17830a3054eb *R/alfa.cikmeans.R
 ca4e34301c135294da694ebc82524250 *R/alfa.mix.norm.R
 208286a4bb16cd4fed702bcdd568d968 *R/bic.alfamixnorm.R
 3612ac8864998a7dbf869e1532d5f23c *R/cikmeans.R
-372164e3317c10f04832c15335e34b2d *R/index_max.R
-6e01e28283ed7197bbc74050f66f13ed *R/index_min.R
-171ff43f370fac8e86ae1d10904ed927 *man/CompositionalClust-package.Rd
+5d48bc7b1cf245aa630d6a47923db714 *R/index_max.R
+e515efac25e415514f25986c89c2b3a3 *R/index_min.R
+709503521ad9ac867f9ed986087ec61c *man/CompositionalClust-package.Rd
 01e6dbcf1d230fed60da78639abaa726 *man/alfa.cikmeans.Rd
 e4e15c7e01e70dcb3c4208bacbf47099 *man/alfa.mix.norm.Rd
 3971916ad31cfedcfe5546d74f97e485 *man/bic.alfamixnorm.Rd

@@ -26,6 +26,7 @@ index_min <- function(y, mod) {
   diag(a) <- 0
   ind[2] <- sum( Rfast::rowMaxs(a, TRUE) ) / k
 
+  suppressWarnings({
   ## Det_Ratio
   mat1 <- mat2 <- 0
   for ( i in 1:k ) {
@@ -38,6 +39,7 @@ index_min <- function(y, mod) {
 
   ## Log_Det_ratio
   ind[4] <- n * log( ind[3] )
+  })
 
   ## "Log_SS_Ratio"
   sw <- sum(s)

@@ -19,6 +19,7 @@ index_max <- function(y, mod) {
   sw <- Rfast::colsums( com )
   ind[22] <- sqrt( mean( 1 - sw / s ) / k )
 
+  suppressWarnings({
   ## "Ksq_DetW"
   Wg <- 0
   for ( i in 1:k )  Wg <- Wg + Rfast::cova(y[ina == i, ]) * ( ni[i] - 1)
@@ -27,6 +28,7 @@ index_max <- function(y, mod) {
   ## "Trace_WiB"
   Bg <- Rfast::cova(y) * (n - 1) - Wg
   ind[24] <- sum( diag( solve(Wg, Bg) ) )
+  })
 
   dbh <- dpbm <- D1k <- D2k <- D3k <- numeric(k)
   for ( i in 1:k )  {
