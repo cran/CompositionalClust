@@ -24,11 +24,13 @@ index_max <- function(y, mod) {
   Wg <- 0
   for ( i in 1:k )  Wg <- Wg + Rfast::cova(y[ina == i, ]) * ( ni[i] - 1)
   ind[19] <- k^2 * det(Wg)
-
+  })
   ## "Trace_WiB"
   Bg <- Rfast::cova(y) * (n - 1) - Wg
-  ind[24] <- sum( diag( solve(Wg, Bg) ) )
-  })
+  b <- try( sum( diag( solve(Wg, Bg) ) ), silent = TRUE)
+  if ( identical(class(b), "try-error") ) {
+    ind[24] <- NaN
+  } else  ind[24] <- b
 
   dbh <- dpbm <- D1k <- D2k <- D3k <- numeric(k)
   for ( i in 1:k )  {
